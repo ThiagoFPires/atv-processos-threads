@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary Word lock files
+~$*.docx
+
+# Backups
+*.bak
+*.tmp
+
+# Virtual Environment
+venv/
+.env

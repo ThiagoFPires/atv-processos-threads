@@ -1,0 +1,101 @@
+{
+  "experimento": {
+    "limite_exclusivo": 200000,
+    "repeticoes": 3,
+    "data_hora": "2026-09-26 18:37:48"
+  },
+  "computador": {
+    "sistema_operacional": "Windows-11-10.0.26200-SP0",
+    "processador": "AMD Ryzen 7 5700X 8-Core Processor",
+    "nucleos_logicos": 16,
+    "memoria_ram_gb": 31.92,
+    "python": "3.14.7"
+  },
+  "cenarios": {
+    "sequencial": {
+      "resultado": 17984,
+      "tempos_segundos": [
+        0.19395650000296882,
+        0.1961421000014525,
+        0.19445939999786788
+      ],
+      "mediana_segundos": 0.19445939999786788
+    },
+    "processos": {
+      "1": {
+        "resultado": 17984,
+        "tempos_segundos": [
+          0.3220722999976715,
+          0.3056369999976596,
+          0.3109377000000677
+        ],
+        "mediana_segundos": 0.3109377000000677
+      },
+      "2": {
+        "resultado": 17984,
+        "tempos_segundos": [
+          0.23386499999833177,
+          0.2386008000030415,
+          0.2365389000005962
+        ],
+        "mediana_segundos": 0.2365389000005962
+      },
+      "4": {
+        "resultado": 17984,
+        "tempos_segundos": [
+          0.19545880000077887,
+          0.18717589999869233,
+          0.19399889999840525
+        ],
+        "mediana_segundos": 0.19399889999840525
+      },
+      "8": {
+        "resultado": 17984,
+        "tempos_segundos": [
+          0.20638940000208095,
+          0.2056771999996272,
+          0.2069558999974106
+        ],
+        "mediana_segundos": 0.20638940000208095
+      }
+    },
+    "threads": {
+      "1": {
+        "resultado": 17984,
+        "tempos_segundos": [
+          0.20319799999924726,
+          0.19877520000227378,
+          0.196573699999135
+        ],
+        "mediana_segundos": 0.19877520000227378
+      },
+      "2": {
+        "resultado": 17984,
+        "tempos_segundos": [
+          0.20035160000043106,
+          0.1997745999979088,
+          0.20048789999782457
+        ],
+        "mediana_segundos": 0.20035160000043106
+      },
+      "4": {
+        "resultado": 17984,
+        "tempos_segundos": [
+          0.19846699999834527,
+          0.20465129999865894,
+          0.20554210000045714
+        ],
+        "mediana_segundos": 0.20465129999865894
+      },
+      "8": {
+        "resultado": 17984,
+        "tempos_segundos": [
+          0.21394750000035856,
+          0.20470510000086506,
+          0.2029512999979488
+        ],
+        "mediana_segundos": 0.20470510000086506
+      }
+    }
+  }
+}
